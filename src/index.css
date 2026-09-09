@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply transition-colors duration-200;
+}
+
+body {
+  @apply bg-slate-900 text-white;
+}
+
+.btn-primary {
+  @apply px-6 py-2 bg-indigo-600 hover:bg-indigo-700 rounded-lg font-medium transition-all;
+}
+
+.btn-secondary {
+  @apply px-6 py-2 bg-emerald-600 hover:bg-emerald-700 rounded-lg font-medium transition-all;
+}
+
+.btn-ghost {
+  @apply px-4 py-2 border border-slate-700 hover:bg-slate-800 rounded-lg font-medium transition-all;
+}
+
+.input-field {
+  @apply w-full px-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-600;
+}
+
+.select-field {
+  @apply w-full px-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-indigo-600 cursor-pointer;
+}
+
+.modal-overlay {
+  @apply fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50;
+}
+
+.modal-content {
+  @apply bg-slate-800 rounded-lg p-6 w-full max-w-md border border-slate-700;
+}
+
+.table-row-hover {
+  @apply hover:bg-slate-800 transition-colors;
+}
