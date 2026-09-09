@@ -11,7 +11,7 @@ const Header = ({ isAuthenticated, onSignOut }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2 cursor-pointer" onClick={() => navigate('/')}>
             <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center">
               <span className="font-bold text-white">LS</span>
             </div>
@@ -20,7 +20,7 @@ const Header = ({ isAuthenticated, onSignOut }) => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#pricing" className="text-slate-300 hover:text-white transition">
+            <a href="/#pricing" className="text-slate-300 hover:text-white transition">
               Pricing
             </a>
             {isAuthenticated ? (
@@ -69,7 +69,7 @@ const Header = ({ isAuthenticated, onSignOut }) => {
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
           <div className="md:hidden pb-4 border-t border-slate-700 pt-4">
-            <a href="#pricing" className="block text-slate-300 hover:text-white transition py-2">
+            <a href="/#pricing" className="block text-slate-300 hover:text-white transition py-2">
               Pricing
             </a>
             {isAuthenticated ? (

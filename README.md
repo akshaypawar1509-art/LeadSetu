@@ -6,7 +6,7 @@ A comprehensive SaaS platform for Indian local businesses and sales teams to fin
 
 - 🔍 **Lead Discovery**: Search and filter local business leads by city and category
 - 📞 **Call Tracking**: Log calls with outcomes, notes, and follow-up scheduling
-- 💼 **CRM Dashboard**: Manage leads with status tracking and action buttons
+- 📋 **CRM Dashboard**: Manage leads with status tracking and action buttons
 - 💳 **Razorpay Integration**: Subscription-based pricing with multiple tiers
 - 🔐 **Supabase Auth**: Email/Password and OTP authentication
 - 📱 **Responsive Design**: Mobile-first, modern SaaS aesthetic
